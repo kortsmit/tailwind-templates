@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tailwind Templates | Login</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="font-sans h-screen bg-grey-lighter">
+    <div class="container mx-auto flex justify-center items-center">
+        <div class="w-full max-w-xs m-auto">
+
+            <h1 class="py-8 text-blue-darker text-center">Your Logo Here</h1>
+            <!--<img src="logo.svg" class="py-8">-->
+
+            <form class="bg-grey-lightest shadow-lg rounded px-8 pt-8 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-grey-darker text-sm font-bold mb-2" for="username">
+                        Username
+                    </label>
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:border-blue"
+                           id="username" type="text" placeholder="Username">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-grey-darker text-sm font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:border-blue"
+                           id="password" type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+                </div>
+                <div class="flex items-center justify-between">
+                    <a class="inline-block align-baseline font-bold text-sm text-blue no-underline hover:text-blue-darker" href="#">
+                        Forgot Password?
+                    </a>
+                    <button class="bg-blue-dark hover:bg-blue hover:text-white text-grey-lightest font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button">
+                        Log In
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
